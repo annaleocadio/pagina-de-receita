@@ -28,6 +28,10 @@ main{
     
 }
 
+section + section{
+    margin-top: 24px;
+}
+
 #about p + p{
     margin-top: 12px;
 }
@@ -40,11 +44,15 @@ h1{
 h2{
     font-size: 24px;
 }
-
 h1, h2{
     color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
 }
 
+ul{
+    padding-left: 24px;
+}
 p{
     color: #573A37;
 
